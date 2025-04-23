@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Page selector
-page = st.sidebar.selectbox("Select Page", ["🔐 Encoder & Decoder", "📘 How It Works"])
+page = st.sidebar.selectbox("Select Page", ["Encoder & Decoder", "How It Works"])
 
 # ----------------- PAGE 1: ENCODER / DECODER -----------------
-if page == "🔐 Encoder & Decoder":
+if page == "Encoder & Decoder":
     st.title("Message Encoder & Decoder")
 
     method = st.selectbox("Select Method", ["Substitution", "Replacement"])
@@ -71,8 +71,8 @@ if page == "🔐 Encoder & Decoder":
     st.text_area("Result", output, height=150)
 
 # ----------------- PAGE 2: HOW IT WORKS -----------------
-elif page == "📘 How It Works":
-    st.title("📘 How the Encoder & Decoder Work")
+elif page == "How It Works":
+    st.title("How the Encoder & Decoder Work")
 
     st.header("1. Substitution Method")
     st.markdown("""
