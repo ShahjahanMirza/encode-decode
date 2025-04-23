@@ -1,3 +1,3 @@
 # encode-decode
 
-Link to deployed site : [Click here](encode-decode.streamlit.app)
+Link to deployed site : [Click here](https://encode-decode.streamlit.app)
